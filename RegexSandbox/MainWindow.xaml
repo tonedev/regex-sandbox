@@ -24,6 +24,8 @@
         <Style TargetType="{x:Type TextBox}" x:Key="MultiLineTextBox" BasedOn="{StaticResource {x:Type TextBox}}">
             <Setter Property="TextWrapping" Value="Wrap"/>
             <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="AcceptsReturn" Value="True"/>
+            <Setter Property="AcceptsTab" Value="True"/>
         </Style>
     </Window.Resources>
     <Grid Margin="10">
